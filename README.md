@@ -8,7 +8,7 @@ Our website is made for the indecisive person. We can generate a random meal and
 ## Home Page
 Our homepage has a button that triggers two api calls and displays a random meal and a random movie onto the screen. If the user is not satisfied with one, they may click the refresh button on either the meal or movie option to get another.
 
-![screenshot of home page]()
+![screenshot of home page]!()
 blob:https://github.com/448549a5-de3e-4895-a136-f5031acfba6d
 
 
@@ -24,5 +24,5 @@ Our About us page has our team members contact info on it.
 ## Deals page
 Our deals page contains links tha the user can navigate to to find date night activities.
 
-![screenshot of deals page]
+![screenshot of deals page]!()
 blob:https://github.com/448549a5-de3e-4895-a136-f5031acfba6d
