@@ -1,0 +1,152 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* html {
+    box-sizing: border-box;
+} */
+
+
+
+.navbar {
+
+    background-color: #212529;
+    color: white;
+}
+
+#pageLink {
+ margin-left: 25px;
+}
+
+#pageLink:hover {
+    font-size: larger;
+}
+
+
+.row { margin: 0 -5px;}
+
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
+
+.nav {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.nav-item {
+    margin: auto;
+    font-size: 15px;
+    color: grey;
+}
+
+a:hover {
+    font-size: medium;
+}
+
+.fa {
+    margin-bottom: 10px;
+
+}
+
+ .content {
+  display: flex;
+  flex-direction: row;
+} 
+
+
+.info-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.817);
+     margin: 8px; 
+    padding: 16px;
+    text-align: center;
+}
+
+.about-us {
+    background-color: black;
+    color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.container {
+    padding: 0 16px;
+}
+
+/* .container::after, .row::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    
+}
+
+.title {
+    color: rgba(233, 49, 64, 0.934);
+}
+
+button {
+    border: none;
+    background-color: whitesmoke;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+/* .button:hover {
+    background-color: rgb(172, 21, 21);
+    opacity: 0.7;
+} */
+
+
+/* 
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+
+    }
+  } */
+
+  @media only screen and (max-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+    .links {
+        background-color: whitesmoke;
+        border: none;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+  }
